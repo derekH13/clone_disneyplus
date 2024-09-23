@@ -9,7 +9,7 @@ function styles(){
 }
 
 function images(){
-    return gulp.src('./images/**/*', { encoding: false })
+    return gulp.src('./src/images/**/*', { encoding: false })
         .pipe(imagemin([
             imagemin.mozjpeg({ quality: 75, progressive: true }),
             imagemin.optipng({ optimizationLevel: 5 }),
