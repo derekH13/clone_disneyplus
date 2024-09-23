@@ -1,6 +1,8 @@
 @use 'variaveis';
 
 @use 'hero';
+@use 'shows';
+@use 'plans';
 
 
 @font-face {
@@ -21,12 +23,13 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Avenir, sans-serif;
 }
 
 
 body{
     background-color: variaveis.$corFundo;
-    font-family: Avenir, sans-serif;
+   
     
 }
 
@@ -70,4 +73,18 @@ body{
     @include text(18px);
     color: variaveis.$corTextoSecundaria;
     text-decoration: underline;
+}
+
+.button{
+    display: block;
+    border: none;
+    width: 100%;
+    height: 60px;
+    font-size: 18px;
+    color: variaveis.$corTextoSecundaria;
+    background-color: #6421ff;
+    text-transform: uppercase;
+    border-radius: 4px;
+    margin-top: 2vw;
+    margin-bottom: 8px;
 }
