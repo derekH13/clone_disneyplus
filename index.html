@@ -9,8 +9,26 @@
 </head>
 
 <body>
+    <header class="header header--is-hidden">
+        <div class="header__container">
+            <h1>
+                <img class="header__logo" src="./dist/images/disneyplus.svg" alt="Disney">
+            </h1>
+            <ul class="header__links">
+                <li class="header__links__item">
+                    <a class="button button--secundary" href="#">Assine agora</a>
+                </li>
+                <li class="header__links__item">
+                    <a class="button button--dark" href="#">Entrar</a>
+                </li>
+            </ul>
+        </div>
+    </header>
+
+
     <section class="hero">
         <div class="hero__content">
+
             <h1 class="hero__content__branding">
                 <img src="./dist/images/disneyplus.svg" alt="Disney">
             </h1>
@@ -58,26 +76,14 @@
 
         <ul data-tab-id="em_breve" class="shows__list shows__list--is-active">
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="">
+                <img src="./dist/images/em_breve/willow.jpg" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/sem_limites.jpg" alt="">
             </li>
             <li class="shows__list__item">
                 <img src="./dist/images/em_breve/spidey.jpg" alt="">
             </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="">
-            </li>
-        </ul>
-
-        <ul data-tab-id="populares" class="shows__list">
             <li class="shows__list__item">
                 <img src="./dist/images/em_breve/lobisomem.jpg" alt="">
             </li>
@@ -85,13 +91,25 @@
                 <img src="./dist/images/em_breve/spidey.jpg" alt="">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="">
+                <img src="./dist/images/em_breve/desencantada.jpg" alt="">
+            </li>
+        </ul>
+
+        <ul data-tab-id="populares" class="shows__list">
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/sem_limites.jpg" alt="">
             </li>
             <li class="shows__list__item">
                 <img src="./dist/images/em_breve/spidey.jpg" alt="">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/spidey.jpg" alt="">
+                <img src="./dist/images/em_breve/lobisomem.jpg" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/desencantada.jpg" alt="">
             </li>
             <li class="shows__list__item">
                 <img src="./dist/images/em_breve/spidey.jpg" alt="">
@@ -100,19 +118,19 @@
 
         <ul data-tab-id="star_plus" class="shows__list">
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="">
+                <img src="./dist/images/em_breve/desencantada.jpg" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/lobisomem.jpg" alt="">
+            </li>
+            <li class="shows__list__item">
+                <img src="./dist/images/em_breve/willow.jpg" alt="">
             </li>
             <li class="shows__list__item">
                 <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="">
             </li>
             <li class="shows__list__item">
-                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="">
-            </li>
-            <li class="shows__list__item">
-                <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="">
+                <img src="./dist/images/em_breve/sem_limites.jpg" alt="">
             </li>
             <li class="shows__list__item">
                 <img src="./dist/images/em_breve/the_santa_clauses.jpg" alt="">
@@ -156,6 +174,127 @@
         </p>
     </section>
 
+    <section class="image-text-section">
+        <img src="./dist/images/tv_pc_tablet_celular.png" alt="">
+
+        <div class="image-text-section__text__container">
+            <h2 class="title">Assista do seu jeito</h2>
+            <p class="text--big">
+                Aproveite a tela frande da Tv ou assista no tablet , laptop, celular e outros aparelhos. Nossa seleção
+                de titulos. Aproveite a tela frande da Tv ou assista no tablet , laptop, celular e outros aparelhos.
+                Nossa seleção
+                de titulos.
+            </p>
+        </div>
+    </section>
+
+    <section class="image-text-section image-text-section--image-full-width">
+        <img class="desktop" src="./dist/images/fundo_rei_leao.png">
+        <img class="mobille" src="./dist/images/fundo_rei_leao_celular.png">
+
+
+        <div class="image-text-section__text__container image-text-section--image-full-width__text__container">
+            <h2 class="title">Baixe filmes e series</h2>
+            <p class="text--big">
+                Baixe e assista quando e onde quiser. Assim, seus favoritos estão sempre com voçê, até mesmo sem
+                internet.
+            </p>
+        </div>
+    </section>
+    <section class="available-devices">
+        <h2 class="title">Disponivel nos seus dispositivos favoritos</h2>
+        <ul class="available-devices__list">
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="">
+                <h4 class="title--small">Computador</h4>
+
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOs</li>
+                    <li>PC Windowns</li>
+                </ul>
+            </li>
+
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="">
+                <h4 class="title--small">Computador</h4>
+
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOs</li>
+                    <li>PC Windowns</li>
+                </ul>
+            </li>
+
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="">
+                <h4 class="title--small">Computador</h4>
+
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOs</li>
+                    <li>PC Windowns</li>
+                </ul>
+            </li>
+
+            <li class="available-devices__list__item">
+                <img src="./dist/images/dispositivos/computador.png" alt="">
+                <h4 class="title--small">Computador</h4>
+
+                <ul class="text">
+                    <li>Chrome OS</li>
+                    <li>MacOs</li>
+                    <li>PC Windowns</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+
+    <section class="faq">
+        <h2 class="title">
+            perguntas frequentes
+        </h2>
+        <ul class="faq__questions">
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    perguntas?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    A resposta da pergunta
+                </div>
+            </li>
+
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    perguntas?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    A resposta da pergunta
+                </div>
+            </li>
+
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    perguntas?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    A resposta da pergunta
+                </div>
+            </li>
+
+            <li class="faq__questions__item">
+                <div class="faq__questions__item__question" data-faq-question>
+                    perguntas?
+                </div>
+                <div class="faq__questions__item__answer text--big">
+                    A resposta da pergunta
+                </div>
+            </li>
+
+        </ul>
+
+
+    </section>
 
     <script src="./src/main.js"></script>
 </body>
